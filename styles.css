@@ -18,7 +18,11 @@ ul{
 img {
   width: 20vw;
 }
-
+body {
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
 .name {
   font-size: 25px;
   font-weight: bold;
