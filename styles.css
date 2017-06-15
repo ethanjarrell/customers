@@ -1,7 +1,12 @@
+* {
+  transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+transition-duration: 1s;
+}
+
 .customers{
   display: flex;
   flex-flow: row wrap;
-  width: 100vw;
+  width: 95vw;
   font-family: sans-serif;
   justify-content: center;
   align-items: center;
@@ -16,6 +21,10 @@ ul{
   margin: 2vw .2vw 3vw .2vw;
 }
 img {
+  border-width: 5px;
+  border-radius: 10%;
+  border-color: green;
+  border-style: double;
   width: 20vw;
 }
 body {
